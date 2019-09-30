@@ -3,18 +3,61 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39590BA5E0BEFD0C21D10128 /* Pods_currencyConvertor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1FD5ED81B692B27E7CA802F /* Pods_currencyConvertor.framework */; };
+		520BFD38233366C000C7F398 /* dateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520BFD37233366C000C7F398 /* dateViewController.swift */; };
+		5228510E2327EB950004F8F6 /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5228510D2327EB950004F8F6 /* menuViewController.swift */; };
+		522851102327F3800004F8F6 /* selectCountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5228510F2327F3800004F8F6 /* selectCountryViewController.swift */; };
+		522851122327F4890004F8F6 /* contactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522851112327F4890004F8F6 /* contactViewController.swift */; };
+		527968C423387F16008BB4E4 /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527968C323387F16008BB4E4 /* LineChart.swift */; };
+		527968C623388851008BB4E4 /* DotCALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527968C523388851008BB4E4 /* DotCALayer.swift */; };
+		527968C823388949008BB4E4 /* CurveAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527968C723388949008BB4E4 /* CurveAlgorithm.swift */; };
+		527A1A8E232F89DD00466B78 /* CloudDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527A1A89232F89DC00466B78 /* CloudDB.swift */; };
+		527A1A8F232F89DD00466B78 /* SQLiteBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527A1A8A232F89DC00466B78 /* SQLiteBase.swift */; };
+		527A1A90232F89DD00466B78 /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527A1A8C232F89DC00466B78 /* SQLiteDB.swift */; };
+		527A1A91232F89DD00466B78 /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527A1A8D232F89DC00466B78 /* SQLTable.swift */; };
+		527A1A9D232FCC9600466B78 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 527A1A95232F8CB400466B78 /* libsqlite3.0.tbd */; };
+		527A1A9E232FCC9600466B78 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 527A1A94232F8CB400466B78 /* libsqlite3.tbd */; };
+		52B25D642330C793003394AF /* currency.db in Resources */ = {isa = PBXBuildFile; fileRef = 52B25D632330C788003394AF /* currency.db */; };
+		52D06BB323348DE1002B2050 /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D06BB223348DE1002B2050 /* testViewController.swift */; };
+		52D06BB52334C012002B2050 /* historicalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D06BB42334C012002B2050 /* historicalViewController.swift */; };
+		52D06BB72334D024002B2050 /* showHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D06BB62334D024002B2050 /* showHistoryTableViewController.swift */; };
 		52D5530C2327767C004662E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D5530B2327767C004662E9 /* AppDelegate.swift */; };
 		52D5530E2327767C004662E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D5530D2327767C004662E9 /* ViewController.swift */; };
 		52D553112327767C004662E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D5530F2327767C004662E9 /* Main.storyboard */; };
 		52D553132327767C004662E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D553122327767C004662E9 /* Assets.xcassets */; };
 		52D553162327767C004662E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D553142327767C004662E9 /* LaunchScreen.storyboard */; };
+		52D5531E23277747004662E9 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D5531D23277747004662E9 /* WelcomeViewController.swift */; };
+		52D5532023277770004662E9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D5531F23277770004662E9 /* HomeViewController.swift */; };
+		52D5532223279057004662E9 /* exchangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D5532123279057004662E9 /* exchangeViewController.swift */; };
+		52F8DD6B233515B5009C5B64 /* historyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F8DD6A233515B5009C5B64 /* historyTableViewCell.swift */; };
+		52FBE6972331CDFE00CE5871 /* currencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FBE6962331CDFE00CE5871 /* currencyTableViewCell.swift */; };
+		52FFAAA723368D3800817B29 /* showHistorywithLineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FFAAA623368D3800817B29 /* showHistorywithLineChartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		319DE9B4E323A130D84D15B4 /* Pods-currencyConvertor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-currencyConvertor.debug.xcconfig"; path = "Target Support Files/Pods-currencyConvertor/Pods-currencyConvertor.debug.xcconfig"; sourceTree = "<group>"; };
+		520BFD37233366C000C7F398 /* dateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dateViewController.swift; sourceTree = "<group>"; };
+		5228510D2327EB950004F8F6 /* menuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
+		5228510F2327F3800004F8F6 /* selectCountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectCountryViewController.swift; sourceTree = "<group>"; };
+		522851112327F4890004F8F6 /* contactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactViewController.swift; sourceTree = "<group>"; };
+		527968C323387F16008BB4E4 /* LineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+		527968C523388851008BB4E4 /* DotCALayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotCALayer.swift; sourceTree = "<group>"; };
+		527968C723388949008BB4E4 /* CurveAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveAlgorithm.swift; sourceTree = "<group>"; };
+		527A1A89232F89DC00466B78 /* CloudDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudDB.swift; sourceTree = "<group>"; };
+		527A1A8A232F89DC00466B78 /* SQLiteBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteBase.swift; sourceTree = "<group>"; };
+		527A1A8C232F89DC00466B78 /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteDB.swift; sourceTree = "<group>"; };
+		527A1A8D232F89DC00466B78 /* SQLTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLTable.swift; sourceTree = "<group>"; };
+		527A1A94232F8CB400466B78 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		527A1A95232F8CB400466B78 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		527A1A98232F963B00466B78 /* mybridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mybridge.h; sourceTree = "<group>"; };
+		52B25D632330C788003394AF /* currency.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = currency.db; sourceTree = "<group>"; };
+		52D06BB223348DE1002B2050 /* testViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
+		52D06BB42334C012002B2050 /* historicalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historicalViewController.swift; sourceTree = "<group>"; };
+		52D06BB62334D024002B2050 /* showHistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showHistoryTableViewController.swift; sourceTree = "<group>"; };
 		52D553082327767C004662E9 /* currencyConvertor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = currencyConvertor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D5530B2327767C004662E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52D5530D2327767C004662E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +65,14 @@
 		52D553122327767C004662E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52D553152327767C004662E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52D553172327767C004662E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D5531D23277747004662E9 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		52D5531F23277770004662E9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		52D5532123279057004662E9 /* exchangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exchangeViewController.swift; sourceTree = "<group>"; };
+		52F8DD6A233515B5009C5B64 /* historyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historyTableViewCell.swift; sourceTree = "<group>"; };
+		52FBE6962331CDFE00CE5871 /* currencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = currencyTableViewCell.swift; sourceTree = "<group>"; };
+		52FFAAA623368D3800817B29 /* showHistorywithLineChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showHistorywithLineChartViewController.swift; sourceTree = "<group>"; };
+		93FAC46E33FA9A134BB2BFA0 /* Pods-currencyConvertor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-currencyConvertor.release.xcconfig"; path = "Target Support Files/Pods-currencyConvertor/Pods-currencyConvertor.release.xcconfig"; sourceTree = "<group>"; };
+		D1FD5ED81B692B27E7CA802F /* Pods_currencyConvertor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_currencyConvertor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +80,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				527A1A9D232FCC9600466B78 /* libsqlite3.0.tbd in Frameworks */,
+				527A1A9E232FCC9600466B78 /* libsqlite3.tbd in Frameworks */,
+				39590BA5E0BEFD0C21D10128 /* Pods_currencyConvertor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BE73DC3F78D204C1E7FFD45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				319DE9B4E323A130D84D15B4 /* Pods-currencyConvertor.debug.xcconfig */,
+				93FAC46E33FA9A134BB2BFA0 /* Pods-currencyConvertor.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		527A1A7E232F863000466B78 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				527A1A98232F963B00466B78 /* mybridge.h */,
+				527A1A89232F89DC00466B78 /* CloudDB.swift */,
+				527A1A8A232F89DC00466B78 /* SQLiteBase.swift */,
+				527A1A8C232F89DC00466B78 /* SQLiteDB.swift */,
+				527A1A8D232F89DC00466B78 /* SQLTable.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		527A1A88232F86EB00466B78 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				52B25D632330C788003394AF /* currency.db */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		527A1A93232F8CB400466B78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				527A1A95232F8CB400466B78 /* libsqlite3.0.tbd */,
+				527A1A94232F8CB400466B78 /* libsqlite3.tbd */,
+				D1FD5ED81B692B27E7CA802F /* Pods_currencyConvertor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		52D552FF2327767C004662E9 = {
 			isa = PBXGroup;
 			children = (
 				52D5530A2327767C004662E9 /* currencyConvertor */,
 				52D553092327767C004662E9 /* Products */,
+				527A1A93232F8CB400466B78 /* Frameworks */,
+				2BE73DC3F78D204C1E7FFD45 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +149,30 @@
 		52D5530A2327767C004662E9 /* currencyConvertor */ = {
 			isa = PBXGroup;
 			children = (
+				527A1A88232F86EB00466B78 /* Resources */,
+				527A1A7E232F863000466B78 /* Utilities */,
 				52D5530B2327767C004662E9 /* AppDelegate.swift */,
 				52D5530D2327767C004662E9 /* ViewController.swift */,
 				52D5530F2327767C004662E9 /* Main.storyboard */,
 				52D553122327767C004662E9 /* Assets.xcassets */,
 				52D553142327767C004662E9 /* LaunchScreen.storyboard */,
 				52D553172327767C004662E9 /* Info.plist */,
+				52D5531D23277747004662E9 /* WelcomeViewController.swift */,
+				52D5531F23277770004662E9 /* HomeViewController.swift */,
+				52D5532123279057004662E9 /* exchangeViewController.swift */,
+				5228510D2327EB950004F8F6 /* menuViewController.swift */,
+				5228510F2327F3800004F8F6 /* selectCountryViewController.swift */,
+				522851112327F4890004F8F6 /* contactViewController.swift */,
+				52FBE6962331CDFE00CE5871 /* currencyTableViewCell.swift */,
+				520BFD37233366C000C7F398 /* dateViewController.swift */,
+				52D06BB223348DE1002B2050 /* testViewController.swift */,
+				52D06BB42334C012002B2050 /* historicalViewController.swift */,
+				52D06BB62334D024002B2050 /* showHistoryTableViewController.swift */,
+				52F8DD6A233515B5009C5B64 /* historyTableViewCell.swift */,
+				52FFAAA623368D3800817B29 /* showHistorywithLineChartViewController.swift */,
+				527968C323387F16008BB4E4 /* LineChart.swift */,
+				527968C523388851008BB4E4 /* DotCALayer.swift */,
+				527968C723388949008BB4E4 /* CurveAlgorithm.swift */,
 			);
 			path = currencyConvertor;
 			sourceTree = "<group>";
@@ -71,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52D5531A2327767C004662E9 /* Build configuration list for PBXNativeTarget "currencyConvertor" */;
 			buildPhases = (
+				8EC151F7699D6D5A75A8599C /* [CP] Check Pods Manifest.lock */,
 				52D553042327767C004662E9 /* Sources */,
 				52D553052327767C004662E9 /* Frameworks */,
 				52D553062327767C004662E9 /* Resources */,
+				F5ADB3FF99DE0DE2ABA84E47 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B25D642330C793003394AF /* currency.db in Resources */,
 				52D553162327767C004662E9 /* LaunchScreen.storyboard in Resources */,
 				52D553132327767C004662E9 /* Assets.xcassets in Resources */,
 				52D553112327767C004662E9 /* Main.storyboard in Resources */,
@@ -130,13 +246,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8EC151F7699D6D5A75A8599C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-currencyConvertor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5ADB3FF99DE0DE2ABA84E47 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-currencyConvertor/Pods-currencyConvertor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-currencyConvertor/Pods-currencyConvertor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-currencyConvertor/Pods-currencyConvertor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		52D553042327767C004662E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52D5531E23277747004662E9 /* WelcomeViewController.swift in Sources */,
+				522851122327F4890004F8F6 /* contactViewController.swift in Sources */,
 				52D5530E2327767C004662E9 /* ViewController.swift in Sources */,
+				52D06BB323348DE1002B2050 /* testViewController.swift in Sources */,
+				527968C423387F16008BB4E4 /* LineChart.swift in Sources */,
+				52F8DD6B233515B5009C5B64 /* historyTableViewCell.swift in Sources */,
 				52D5530C2327767C004662E9 /* AppDelegate.swift in Sources */,
+				520BFD38233366C000C7F398 /* dateViewController.swift in Sources */,
+				52D06BB72334D024002B2050 /* showHistoryTableViewController.swift in Sources */,
+				5228510E2327EB950004F8F6 /* menuViewController.swift in Sources */,
+				527A1A91232F89DD00466B78 /* SQLTable.swift in Sources */,
+				527A1A8E232F89DD00466B78 /* CloudDB.swift in Sources */,
+				527A1A8F232F89DD00466B78 /* SQLiteBase.swift in Sources */,
+				52D06BB52334C012002B2050 /* historicalViewController.swift in Sources */,
+				52D5532023277770004662E9 /* HomeViewController.swift in Sources */,
+				52D5532223279057004662E9 /* exchangeViewController.swift in Sources */,
+				527A1A90232F89DD00466B78 /* SQLiteDB.swift in Sources */,
+				527968C823388949008BB4E4 /* CurveAlgorithm.swift in Sources */,
+				52FBE6972331CDFE00CE5871 /* currencyTableViewCell.swift in Sources */,
+				522851102327F3800004F8F6 /* selectCountryViewController.swift in Sources */,
+				527968C623388851008BB4E4 /* DotCALayer.swift in Sources */,
+				52FFAAA723368D3800817B29 /* showHistorywithLineChartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,16 +458,20 @@
 		};
 		52D5531B2327767C004662E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 319DE9B4E323A130D84D15B4 /* Pods-currencyConvertor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86M6XC9HA4;
 				INFOPLIST_FILE = currencyConvertor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com..currencyConvertor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = currencyConvertor/Utilities/mybridge.h;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,16 +479,20 @@
 		};
 		52D5531C2327767C004662E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93FAC46E33FA9A134BB2BFA0 /* Pods-currencyConvertor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86M6XC9HA4;
 				INFOPLIST_FILE = currencyConvertor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com..currencyConvertor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = currencyConvertor/Utilities/mybridge.h;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
